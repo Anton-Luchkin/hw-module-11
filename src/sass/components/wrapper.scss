@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 1000px;
+  background-image: url('../images/raster/banner-min.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 44px;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .wrapper {
+      background-image: url("../img/raster/banner@2x-min.png");
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+
+
+/* FOOTER */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .wrapper {
+    background-image: url("../img/raster/banner@2x-min.png");
+  }
+}

@@ -1,0 +1,119 @@
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 65px 0 0 0;
+}
+
+.services :nth-last-of-type(n + 4) {
+  margin-bottom: 95px;
+}
+
+/* list element */
+.services__item {
+  width: 380px;
+  margin: 0;
+}
+
+/* box inside list element */
+.services__box {
+  display: inline-block;
+  width: 300px;
+}
+
+/* list element title */
+.services__title {
+  font-size: 14px;
+  font-family: $main-font-stack;
+  color: $section-title-color;
+  text-transform: uppercase;
+  margin: 0 auto 15px;
+  padding: 0;
+}
+
+/* list element description */
+.services__text {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $services-text-color;
+  margin: 0;
+  padding: 0;
+}
+
+/* 1 */
+.services__item--alarm::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/alarm.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+
+/* 2 */
+.services__item--line-graph::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/line.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+
+/* 3 */
+.services__item--computer::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/computer.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+
+/* 4 */
+.services__item--book::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/home.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+
+/* 5 */
+.services__item--home::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/book.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+
+/* 6 */
+.services__item--image::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/svg/image.svg');
+  background-repeat: no-repeat;
+  margin: 0 23px 0 20px;
+  vertical-align: top;
+}
+

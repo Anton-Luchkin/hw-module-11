@@ -1,0 +1,49 @@
+/* Social icons */
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.socials__item {
+  width: 56px;
+  height: 56px;
+  background-color: $nav-color;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.socials li:not(:last-of-type) {
+  border-right: 1px solid $subtitle-line-color;
+}
+
+.socials__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  fill: $subtitle-line-color;
+}
+
+.team__card:hover .socials__item {
+  opacity: 100%;
+}
+
+.socials__item:hover {
+  background-color: $subtitle-line-color1;
+}
+
+.socials__item:hover svg {
+  fill: $main-header-color;
+}

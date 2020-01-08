@@ -1,0 +1,40 @@
+.headline {
+  text-align: center;
+}
+
+.headline__main-title {
+  font-size: 72px;
+  font-family: $headline-font;
+  color: $main-header-color;
+  text-align: center;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.headline__subtitle {
+  margin: 0 0 125px;
+  padding: 0;
+  font-size: 150px;
+  line-height: 140px;
+  font-family: $main-font-stack;
+  color: $main-header-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.headline__button {
+  border-style: solid;
+  border-width: 3px;
+  border-color: $main-header-color;
+  background-color: $headline-button-bg-color;
+  width: 164px;
+  height: 44px;
+  font-size: 14px;
+  font-family: $main-font-stack;
+  color: $main-header-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  cursor: pointer;
+}

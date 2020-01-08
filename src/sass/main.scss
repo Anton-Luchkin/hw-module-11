@@ -1,6 +1,23 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+@import 'variables.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+@import '../fonts/fonts.scss';
+
+// Components 
+@import 'components/list.scss';
+@import 'components/wrapper.scss';
+@import 'components/container.scss';
+@import 'components/navigation.scss';
+@import 'components/site-logo.scss';
+@import 'components/nav.scss';
+@import 'components/headline.scss';
+@import 'components/amazing-services.scss';
+@import 'components/section-title.scss';
+@import 'components/services.scss';
+@import 'components/team.scss';
+@import 'components/socials.scss';
+@import 'components/footer.scss';
+

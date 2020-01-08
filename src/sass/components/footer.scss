@@ -1,0 +1,99 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid $footer-border-color;
+  min-height: 63px;
+}
+
+/* Copirait */
+.footer__copirait {
+  font-size: 14px;
+  font-family: $main-font-stack;
+  color: $section-title-color;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: $subtitle-line-color;
+}
+
+/* Form */
+.subscription-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 380px;
+  height: 40px;
+}
+
+.subscription-form__email {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $footer-form-border-color;
+  border-right: none;
+  background-color: $main-header-color;
+  width: 230px;
+  height: 40px;
+  margin: 0;
+  padding-left: 12px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $input-placeholder-color;
+  font-style: italic;
+}
+
+input::-moz-placeholder {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $input-placeholder-color;
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $input-placeholder-color;
+  font-style: italic;
+}
+
+input::-ms-input-placeholder {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $input-placeholder-color;
+  font-style: italic;
+}
+
+input::placeholder {
+  font-size: 15px;
+  font-family: $secondary-font-stack;
+  color: $input-placeholder-color;
+  font-style: italic;
+}
+
+.subscribe-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #95e1d3;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: $main-font-stack;
+  color: $main-header-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
